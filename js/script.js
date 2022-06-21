@@ -14,7 +14,7 @@ L'output del prezzo finale va stampato in pagina forma umana (con massimo due de
 
 const kilometers = parseInt (prompt ('Quanti Km vuoi percorrere?' , '1000'));
 const age = parseInt (prompt('Quanti anni hai?' , '17'));
-const ticketPrice = parseInt ('0,21' * kilometers);
+const ticketPrice = parseInt ('0.21' * kilometers);
 
 console.log('scelta utente : ' +  kilometers);
 console.log('anni utente : ' + age );
